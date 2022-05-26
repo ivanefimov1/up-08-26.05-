@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald&family=Titillium+Web:wght@600&display=swap');
+@import url(styles/main.css);
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Rectangle{
+    background-image: url(img/Rectangle\ 2.png);
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    margin: 0 auto;
+    height: 800px;
+    margin-bottom: 150px;
+}
+.header-nav {
+    position: relative;
+    background-color: rgba(0, 91, 193, 0.6);
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+.logo__link {
+    display: flex;
+}
+.logo {
+    left: 10px;
+    padding: 11px 0px;
+    max-width: 9vw;
+    position: absolute;
+}
+.logo__text {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.nav {
+    margin: 0 auto;
+    display: flex;
+    max-width: 500px;
+    align-self: center;
+    gap: 28px;
+}
+.nav__item {
+    list-style: none;
+    transition: 0.5s;
+}
+.nav__link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.nav__item:hover {
+    transform: scale(1.25);
+    font-weight: bold;
+}
+.header__wrapper{
+    display: flex;
+    max-width: 783px;
+    margin: 0 auto;
+}
+.main {
+    margin-left: -25%;
+    width: 544px;
+    height: 720px;
+    background-color: rgba(0, 91, 193, 0.6);
+}
+.main__content {
+    margin-top: 200px;
+    margin-left: -30%;
+}
+.title {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.button {
+    padding: 10px 50px;
+    border: 2px solid #FFFFFF;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.5s ease;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #005BC1;
+}
+.button__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
