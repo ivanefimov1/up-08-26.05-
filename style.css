@@ -500,3 +500,76 @@ a {
 .little-card-img{
     width: 128px;
 }
+.footer__inner {
+    background-color: #005bc1;
+}
+.footer__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0 25px 0;
+}
+.footer__header-tel {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer__header-adress,
+.footer__header-mail {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+.footer__body {
+    padding: 25px 0 10px 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.footer__body-inner {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__body-box {
+    display: flex;
+    flex-direction: column;
+}
+.footer__body-link {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.footer__link--middle {
+    text-align: center;
+}
+.footer__link--right {
+    text-align: right;
+}
+.footer__bottom {
+    padding: 25px ;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__bottom-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+}
+.footer__bottom-text:first-child {
+    margin-bottom: 10px;
+}
+.footer__container {
+    position: relative;
+    height: 267px;
+}
